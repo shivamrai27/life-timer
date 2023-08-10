@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("./mountain.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+.setting {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#dobButton {
+    padding: 5px;
+    background-color: rgb(199, 231, 125);
+    font-weight: bold;
+    color: rgb(58, 66, 66);
+    border-radius: 10px;
+}
+
+#dob {
+    padding: 5px;
+}
+
+.setting-content {
+    display: flex;
+    gap: 1rem;
+
+}
