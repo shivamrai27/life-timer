@@ -46,3 +46,20 @@
     gap: 1rem;
 
 }
+
+.time-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.time-container h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+
+#initialText {}
+
+#afterText {}
